@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories | AustroMyrtus — Telecom Solutions</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Categories | AustroMyrtus — Telecom Solutions</title>
+<meta name="description" content="">
+<script src="/js/cdn.js"></script>
+<link href="/css/all.min.css" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+    
+    body {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    .glass-nav {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+    }
+
+    .hero-gradient {
+        background: radial-gradient(circle at top right, #e0f2fe 0%, #f8fafc 50%);
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    }
+
+    @keyframes pulse-soft {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+    }
+    .logo-animate {
+        animation: pulse-soft 3s infinite ease-in-out;
+    }
+
+     
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+    .animate-float {
+        animation: float 4s ease-in-out infinite;
+    }
+    .animate-dash {
+        stroke-dasharray: 10;
+        animation: dash 20s linear infinite;
+    }
+    @keyframes dash {
+        to { stroke-dashoffset: -200; }
+    }
+</style>
+</head>
+<body class="transition-colors duration-300">
+    
+    
+    <nav class="fixed w-full z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+            <div class="flex items-center space-x-3">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="relative w-12 h-12 flex items-center justify-center">
+                        <svg viewBox="0 0 100 100" class="w-full h-full logo-animate">
+                            <defs>
+                                <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0284c7;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M50 15 L80 35 L80 65 L50 85 L20 65 L20 35 Z" fill="none" stroke="url(#logo-grad)" stroke-width="6" stroke-linejoin="round"/>
+                            <path d="M40 45 Q50 35 60 45" fill="none" stroke="url(#logo-grad)" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M35 55 Q50 40 65 55" fill="none" stroke="url(#logo-grad)" stroke-width="4" stroke-linecap="round"/>
+                            <circle cx="50" cy="65" r="6" fill="url(#logo-grad)"/>
+                        </svg>
+                    </div>
+                    <span class="text-2xl font-bold tracking-tight text-slate-800">AustroMyrtus</span>
+                </a>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                
+                <a href="/expertise/" class="hover:text-sky-600 transition">Экспертиза</a>
+                
+                <a href="/services/" class="hover:text-sky-600 transition">Сервисы</a>
+                
+                <a href="/activities/" class="hover:text-sky-600 transition">Виды деятельности</a>
+                
+                <a href="/pricing/" class="hover:text-sky-600 transition">Стоимость услуг</a>
+                
+                <a href="/about/" class="hover:text-sky-600 transition">О компании</a>
+                
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <a href="/contacts" class="btn-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg hover:opacity-90 transition">
+                    Связаться
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    
+    <main>
+        
+<section  class="py-24 bg-slate-900 text-white overflow-hidden relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-16 text-center"></h2>
+        <div class="text-white space-y-6 text-lg text-slate-600 leading-relaxed">
+             <br/><br/>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+        </div>
+    </div>
+</section>
+
+    </main>
+    
+    
+    <footer class="py-12 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 AustroMyrtus. Все права защищены</p>
+    </div>
+</footer>
+    
+    
+     <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Форма отправлена! Мы свяжемся с вами в ближайшее время.');
+            });
+        }
+
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>
+    
+    
+    
+<div class="fixed bottom-4 left-4 z-50">
+    <div class="relative">
+        <button id="language-toggle" class="bg-white text-slate-700 px-4 py-2 rounded-full shadow-lg flex items-center space-x-2 hover:shadow-xl transition">
+            <span class="flag">🇷🇺</span>
+            <span>РУ</span>
+            <i class="fas fa-chevron-down text-xs"></i>
+        </button>
+        
+        <div id="language-dropdown" class="hidden absolute bottom-full mb-2 left-0 bg-white rounded-lg shadow-xl p-2 min-w-[100px]">
+            
+                
+            
+                
+                
+                
+                    
+                
+                <a href="/en/" 
+                   class="block px-4 py-2 text-slate-700 hover:bg-slate-100 rounded transition flex items-center space-x-2">
+                    <span class="flag">&#127482;&#127480;</span>
+                    <span>English</span>
+                </a>
+                
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('language-toggle');
+        const dropdown = document.getElementById('language-dropdown');
+        
+        if (toggle && dropdown) {
+            toggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                dropdown.classList.toggle('hidden');
+            });
+            
+            document.addEventListener('click', function() {
+                dropdown.classList.add('hidden');
+            });
+            
+            dropdown.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        }
+    });
+</script>
+
+
+</body>
+</html>
