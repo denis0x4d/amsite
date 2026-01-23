@@ -2,99 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://austromyrtus.ru/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/contacts/</loc>
+    <loc>http://localhost:1313/activities/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contacts/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/contacts/"
+                href="http://localhost:1313/en/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/contacts/"
+                href="http://localhost:1313/contacts/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/expertise/</loc>
+    <loc>http://localhost:1313/services/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/expertise/"
+                href="http://localhost:1313/en/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/expertise/"
+                href="http://localhost:1313/services/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/services/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/services/"
+                href="http://localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/services/"
+                href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/activities/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://austromyrtus.ru/about/</loc>
+    <loc>http://localhost:1313/expertise/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/about/"
+                href="http://localhost:1313/en/expertise/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/about/"
+                href="http://localhost:1313/expertise/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/pricing/</loc>
+    <loc>http://localhost:1313/pricing/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://austromyrtus.ru/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://austromyrtus.ru/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://austromyrtus.ru/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://austromyrtus.ru/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>

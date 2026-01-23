@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts | AustroMyrtus — Telecom Solutions</title>
@@ -10,6 +10,7 @@
 <meta name="description" content="Contact AustroMyrtus for telecom solutions">
 <script src="/js/cdn.js"></script>
 <link href="/css/all.min.css" rel="stylesheet">
+<link rel="icon" href="/icons/favicon.svg" type="image/svg+xml">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
     
@@ -55,13 +56,42 @@
     @keyframes dash {
         to { stroke-dashoffset: -200; }
     }
+
+    .burger-line {
+        width: 24px;
+        height: 2px;
+        transition: all 0.3s ease;
+    }
+
+    #burger-menu-btn.active span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    #burger-menu-btn.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #burger-menu-btn.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+    #mobile-menu:not(.active) {
+        display: none;
+    }
+
+    @media (max-width: 400px) {
+        .company-name {
+            display: none;
+        }
+    }
 </style>
+
 </head>
 <body class="transition-colors duration-300">
     
     
     <nav class="fixed w-full z-50 glass-nav">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
         <div class="flex justify-between h-20 items-center">
             <div class="flex items-center space-x-3">
                 <a href="/en/" class="flex items-center space-x-3">
@@ -79,11 +109,11 @@
                             <circle cx="50" cy="65" r="6" fill="url(#logo-grad)"/>
                         </svg>
                     </div>
-                    <span class="text-2xl font-bold tracking-tight text-slate-800">AustroMyrtus</span>
+                    <span class="company-name text-2xl font-bold tracking-tight text-slate-800">AustroMyrtus</span>
                 </a>
             </div>
             
-            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+            <div class="hidden lg:flex space-x-8 font-medium text-slate-600">
                 
                 <a href="/en/expertise/" class="hover:text-sky-600 transition">Expertise</a>
                 
@@ -93,20 +123,42 @@
                 
             </div>
 
-            <div class="flex items-center space-x-4">
-                <a href="/en/contacts" class="btn-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg hover:opacity-90 transition">
+            <div class="flex items-end gap-2">
+                <div class="flex items-center space-x-4">
+                    <a href="/en/contacts" class="btn-primary text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow-lg hover:opacity-90 transition">
                     Contact
-                </a>
+                    </a>
+                </div>
+
+                
+                <button id="burger-menu-btn" class="lg:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg hover:bg-slate-100 transition focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-opacity-50">
+                    <span class="burger-line bg-slate-700"></span>
+                    <span class="burger-line bg-slate-700 mt-1.5"></span>
+                    <span class="burger-line bg-slate-700 mt-1.5"></span>
+                </button>
             </div>
         </div>
     </div>
+
+    
+    <div id="mobile-menu" class="absolute top-20 right-0 mt-2 w-64 bg-white rounded-3xl shadow-2xl overflow-hidden z-50">
+        <div class="py-4">
+            
+            <a href="/en/expertise/" class="block px-8 py-3 text-slate-700 hover:bg-sky-50 hover:text-sky-600 transition">Expertise</a>
+            
+            <a href="/en/services/" class="block px-8 py-3 text-slate-700 hover:bg-sky-50 hover:text-sky-600 transition">Services</a>
+            
+            <a href="/en/about/" class="block px-8 py-3 text-slate-700 hover:bg-sky-50 hover:text-sky-600 transition">About</a>
+            
+        </div>
+    </div>
 </nav>
+
     
     
     <main>
         
 
-true
 <section class="py-24 bg-white border-b border-slate-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col lg:flex-row gap-16 items-center">
@@ -121,17 +173,17 @@ true
                 </div>
             </div>
              
-            <div class="lg:w-1/2 grid grid-cols-2 gap-6">
+            <div class="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
              
                 <div class="bg-sky-50 p-8 rounded-3xl text-center">
-                    <div class="text-4xl font-bold text-sky-600 mb-2">Phone</div>
-                    <div class="text-sm font-semibold text-slate-500 uppercase tracking-wider"><a href='tel:+74957900350'>+7 (495) 7-900-350</a></div>
+                    <div class="text-2xl font-bold text-sky-600 mb-2">Phone</div>
+                    <div class="text-sm font-semibold text-slate-500 uppercase tracking-wider break-words"><a href='tel:+74957900350'>+7 (495) 7-900-350</a></div>
                 </div>
              
              
                 <div class="bg-slate-50 p-8 rounded-3xl text-center">
-                    <div class="text-4xl font-bold text-slate-800 mb-2">Email</div>
-                    <div class="text-sm font-semibold text-slate-500 uppercase tracking-wider"><a href='mailto: info@austromyrtus.ru'>info@austromyrtus.ru </a></div>
+                    <div class="text-2xl font-bold text-slate-800 mb-2">Email</div>
+                    <div class="text-sm font-semibold text-slate-500 uppercase tracking-wider break-words"><a href='mailto: info@austromyrtus.ru'>info@austromyrtus.ru </a></div>
                 </div>
             
             </div>
@@ -177,7 +229,54 @@ true
             });
         });
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const burgerBtn = document.getElementById('burger-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        
+        burgerBtn.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+
+            
+            if (mobileMenu.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        });
+
+        
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                burgerBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        
+        document.addEventListener('click', function(event) {
+            if (!burgerBtn.contains(event.target) && !mobileMenu.contains(event.target) && mobileMenu.classList.contains('active')) {
+                burgerBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768) {
+                burgerBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    });
 </script>
+
     
     
     

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Виды деятельности on AustroMyrtus — Telecom Solutions</title>
-    <link>https://austromyrtus.ru/activities/</link>
+    <link>http://localhost:1313/activities/</link>
     <description>Recent content in Виды деятельности on AustroMyrtus — Telecom Solutions</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://austromyrtus.ru/activities/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/activities/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
