@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AustroMyrtus — Экспертные команды для успешного внедрения проектов ИТ любой сложности on AustroMyrtus — Telecom Solutions</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in AustroMyrtus — Экспертные команды для успешного внедрения проектов ИТ любой сложности on AustroMyrtus — Telecom Solutions</description>
-    <generator>Hugo</generator>
-    <language>ru</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AustroMyrtus — Экспертные команды для успешного внедрения проектов ИТ любой сложности on AustroMyrtus — Telecom Solutions</title><link>https://austromyrtus.ru/</link><description>Recent content in AustroMyrtus — Экспертные команды для успешного внедрения проектов ИТ любой сложности on AustroMyrtus — Telecom Solutions</description><generator>Hugo</generator><language>ru</language><lastBuildDate/><atom:link href="https://austromyrtus.ru/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
